@@ -98,15 +98,17 @@ while True:
   
    
  if direcao==K_RIGHT:
-   cobra_pos[0]= cobra_pos[0][0]+BLOCK,cobra_pos[0][1] #direita
+   cobra_pos[0]= cobra_pos[0][0]+BLOCK,cobra_pos[0][1] 
  elif direcao==K_LEFT:
-   cobra_pos[0]= cobra_pos[0][0]-BLOCK,cobra_pos[0][1] #esquerda
+   cobra_pos[0]= cobra_pos[0][0]-BLOCK,cobra_pos[0][1] 
  elif direcao==K_DOWN: 
-   cobra_pos[0]= cobra_pos[0][0],cobra_pos[0][1]+BLOCK #baixo
+   cobra_pos[0]= cobra_pos[0][0],cobra_pos[0][1]+BLOCK 
  elif direcao==K_UP:
-   cobra_pos[0]= cobra_pos[0][0],cobra_pos[0][1]-BLOCK #cima
+   cobra_pos[0]= cobra_pos[0][0],cobra_pos[0][1]-BLOCK 
+     
 
  window.blit(texto,(420,30))
  pygame.display.update()  
  
+
    
